@@ -20,7 +20,7 @@ def retrieve_record():
 
 @router.route("/retrieve/by/email/", methods = ['GET'])
 def retrieve_record_by_email():
-    email = request.args.get('email', default = None)
+    email = request.form['email']
     if not email:
         return jsonify({ "detail": "Please provide email" }), 400
     response = usr.retrieve_records(email = email)
