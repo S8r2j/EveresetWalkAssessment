@@ -5,7 +5,7 @@
 > 3. Create database using pgAdmin and remember the database credentials( like database user, database password, database name)
 > 4. Clone the repository and open the project in any suitable IDE (preferred in pycharm)
 > 5. install requirements.txt using command:<br> <I>pip install requirements.txt</I>
-> 6. create ".env" file in the directory where main.py file is located having following attributes: > <br>a. DATABASE_HOST = localhost <br>b. DATABASE_USER = postgres (or the user that you setup while creating database)<br> c. DATABASE_PASSWORD = (Password that you set for your database while setting up pgAdmin) <br> d. DATABASE_NAME = (Database name which you created using pgAdmin)<br>
+> 6. create ".env" file in the directory where main.py file is located having following attributes: <br>a. DATABASE_HOST = localhost <br>b. DATABASE_USER = postgres (or the user that you setup while creating database)<br> c. DATABASE_PASSWORD = (Password that you set for your database while setting up pgAdmin) <br> d. DATABASE_NAME = (Database name which you created using pgAdmin)<br>
 
 ### To start and use the application
 > 1. Run the following command to start up the application:<br><b><i>python main.py</i></b>
